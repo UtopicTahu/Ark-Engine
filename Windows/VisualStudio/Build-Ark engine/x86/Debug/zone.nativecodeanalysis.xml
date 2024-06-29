@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>zone.c</FILENAME>
+      <LINE>679</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'c'. See line 676 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>Cache_FreeHigh</FUNCTION>
+    <DECORATED>Cache_FreeHigh</DECORATED>
+    <FUNCLINE>666</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>668</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>668</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>670</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>671</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>673</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>674</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>676</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>678</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'c' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>zone.c</FILENAME>
+        <LINE>679</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'c' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

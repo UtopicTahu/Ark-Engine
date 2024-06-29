@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>gl_vidsdl.c</FILENAME>
+      <LINE>1666</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'putenv'.</DESCRIPTION>
+    <FUNCTION>VID_Init</FUNCTION>
+    <DECORATED>VID_Init</DECORATED>
+    <FUNCLINE>1624</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>gl_vidsdl.c</FILENAME>
+      <LINE>2107</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'vid_menu_modes'.</DESCRIPTION>
+    <FUNCTION>VID_Menu_ChooseNextMode</FUNCTION>
+    <DECORATED>VID_Menu_ChooseNextMode</DECORATED>
+    <FUNCLINE>2081</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2083</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2085</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'vid_menu_nummodes')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2087</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2087</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;vid_menu_nummodes' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2094</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==vid_menu_nummodes' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2100</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2101</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i&gt;=vid_menu_nummodes' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2103</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i&lt;0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2104</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2107</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'vid_menu_modes' is an In/Out argument to 'Cvar_SetValueQuick' (declared at d:\ark engine\quake\cvar.h:109)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2107</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'vid_menu_modes[-2]', (readable range is 0 to 599)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>gl_vidsdl.c</FILENAME>
+      <LINE>2146</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'vid_menu_bpps'.</DESCRIPTION>
+    <FUNCTION>VID_Menu_ChooseNextBpp</FUNCTION>
+    <DECORATED>VID_Menu_ChooseNextBpp</DECORATED>
+    <FUNCLINE>2121</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2123</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2125</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'vid_menu_numbpps')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2127</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2127</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;vid_menu_numbpps' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2133</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==vid_menu_numbpps' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2139</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2140</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i&gt;=vid_menu_numbpps' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2142</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i&lt;0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2143</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2146</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'vid_menu_bpps' is an In/Out argument to 'Cvar_SetValueQuick' (declared at d:\ark engine\quake\cvar.h:109)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2146</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'vid_menu_bpps[-2]', (readable range is 0 to 4)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>gl_vidsdl.c</FILENAME>
+      <LINE>2180</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'vid_menu_rates'.</DESCRIPTION>
+    <FUNCTION>VID_Menu_ChooseNextRate</FUNCTION>
+    <DECORATED>VID_Menu_ChooseNextRate</DECORATED>
+    <FUNCLINE>2157</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2159</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2161</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2161</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;vid_menu_numrates' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2167</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==vid_menu_numrates' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2173</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2174</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i&gt;=vid_menu_numrates' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2176</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i&lt;0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2177</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2180</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'vid_menu_rates' is an In/Out argument to 'Cvar_SetValue' (declared at d:\ark engine\quake\cvar.h:101)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>gl_vidsdl.c</FILENAME>
+        <LINE>2180</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'vid_menu_rates[-2]', (readable range is 0 to 19)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

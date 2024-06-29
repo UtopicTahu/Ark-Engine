@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_phys.c</FILENAME>
+      <LINE>384</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SV_AddGravity</FUNCTION>
+    <DECORATED>SV_AddGravity</DECORATED>
+    <FUNCLINE>373</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_phys.c</FILENAME>
+      <LINE>679</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SV_CheckWater</FUNCTION>
+    <DECORATED>SV_CheckWater</DECORATED>
+    <FUNCLINE>663</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_phys.c</FILENAME>
+      <LINE>768</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SV_TryUnstick</FUNCTION>
+    <DECORATED>SV_TryUnstick</DECORATED>
+    <FUNCLINE>734</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_phys.c</FILENAME>
+      <LINE>769</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SV_TryUnstick</FUNCTION>
+    <DECORATED>SV_TryUnstick</DECORATED>
+    <FUNCLINE>734</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_phys.c</FILENAME>
+      <LINE>852</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SV_WalkMove</FUNCTION>
+    <DECORATED>SV_WalkMove</DECORATED>
+    <FUNCLINE>791</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_phys.c</FILENAME>
+      <LINE>853</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SV_WalkMove</FUNCTION>
+    <DECORATED>SV_WalkMove</DECORATED>
+    <FUNCLINE>791</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

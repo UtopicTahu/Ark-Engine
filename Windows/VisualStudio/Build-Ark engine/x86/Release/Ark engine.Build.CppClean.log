@@ -1,0 +1,93 @@
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_rlight.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_refrag.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_model.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_mesh.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_fog.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_draw.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cvar.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\crc.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\console.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\common.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cmd.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cl_tent.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cl_parse.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cl_main.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cl_input.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cl_demo.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\chase.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cfgfile.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\cd_sdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\bgmusic.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\net_main.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\net_loop.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\net_dgrm.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\miniz.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\menu.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\mathlib.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\main_sdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\keys.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\in_sdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\image.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\host_cmd.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\host.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_warp.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_vidsdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_texmgr.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_sky.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_screen.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_rmisc.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\gl_rmain.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_modplug.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_mix.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_mikmod.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_mem.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_flac.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_dma.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_codec.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\sbar.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\r_world.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\r_sprite.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\r_part.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\r_brush.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\r_alias.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\pr_exec.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\pr_edict.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\pr_cmds.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\pl_win.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\net_wipx.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\net_wins.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\net_win.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\zone.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\world.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\wad.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\view.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\sys_sdl_win.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\sv_user.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\sv_phys.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\sv_move.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\sv_main.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\strlcpy.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\strlcat.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_xmp.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_wave.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_vorbis.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_umx.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_sdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_opus.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_mp3tag.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\snd_mp3.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.exe
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.ipdb
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.iobj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\quakespasm.res
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\cl.command.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\cl.items.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\cl.read.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\cl.write.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\link.command.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\link.read.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\link.write.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\link.write.2u.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\rc.command.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\rc.read.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\release\ark engine.tlog\rc.write.1.tlog

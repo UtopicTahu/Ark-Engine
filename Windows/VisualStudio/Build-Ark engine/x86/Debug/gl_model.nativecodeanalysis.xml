@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>gl_model.c</FILENAME>
+      <LINE>148</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'mod_decompressed', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>Mod_DecompressVis</FUNCTION>
+    <DECORATED>Mod_DecompressVis</DECORATED>
+    <FUNCLINE>137</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>gl_model.c</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'mod_novis', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>Mod_NoVisPVS</FUNCTION>
+    <DECORATED>Mod_NoVisPVS</DECORATED>
+    <FUNCLINE>200</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>gl_model.c</FILENAME>
+      <LINE>2471</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '16432' bytes of stack.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>Mod_FloodFillSkin</FUNCTION>
+    <DECORATED>Mod_FloodFillSkin</DECORATED>
+    <FUNCLINE>2471</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wipx.c</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'available'.</DESCRIPTION>
+    <FUNCTION>WIPX_CheckNewConnections</FUNCTION>
+    <DECORATED>WIPX_CheckNewConnections</DECORATED>
+    <FUNCLINE>223</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>net_wipx.c</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'available' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>net_wipx.c</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'net_acceptsocket==(SOCKET)(~0)' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>net_wipx.c</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>69</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'available' is an In/Out argument to 'ioctlsocket' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\um\winsock.h:756)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>net_wipx.c</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>57</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'available' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wipx.c</FILENAME>
+      <LINE>354</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>WIPX_StringToAddr</FUNCTION>
+    <DECORATED>WIPX_StringToAddr</DECORATED>
+    <FUNCLINE>325</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wipx.c</FILENAME>
+      <LINE>354</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(3) when some unsigned type is required in call to 'sscanf'.</DESCRIPTION>
+    <FUNCTION>WIPX_StringToAddr</FUNCTION>
+    <DECORATED>WIPX_StringToAddr</DECORATED>
+    <FUNCLINE>325</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wipx.c</FILENAME>
+      <LINE>397</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(4) when some unsigned type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>WIPX_GetAddrFromName</FUNCTION>
+    <DECORATED>WIPX_GetAddrFromName</DECORATED>
+    <FUNCLINE>388</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wipx.c</FILENAME>
+      <LINE>402</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(4) when some unsigned type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>WIPX_GetAddrFromName</FUNCTION>
+    <DECORATED>WIPX_GetAddrFromName</DECORATED>
+    <FUNCLINE>388</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

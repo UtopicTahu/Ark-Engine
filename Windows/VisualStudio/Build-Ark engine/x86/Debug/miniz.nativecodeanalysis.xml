@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>miniz.c</FILENAME>
+      <LINE>809</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'ptr' contains the same NULL value as 'pOut_buf_next' did. </DESCRIPTION>
+    <FUNCTION>tinfl_decompress</FUNCTION>
+    <DECORATED>tinfl_decompress</DECORATED>
+    <FUNCLINE>338</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>347</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>350</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>161</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>54</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>369</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>379</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>396</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>779</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>783</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>791</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>792</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>793</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>794</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>795</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>796</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>797</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>798</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>799</LINE>
+        <COLUMN>85</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>801</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptr' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>802</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>803</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>803</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>803</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>804</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>805</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'buf_len')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>807</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>807</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i+7&lt;block_len' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>818</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;block_len' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>820</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>820</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>821</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>822</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>805</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'buf_len')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>807</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>807</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i+7&lt;block_len')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>miniz.c</FILENAME>
+        <LINE>809</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptr' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>miniz.c</FILENAME>
+      <LINE>1197</LINE>
+      <COLUMN>88</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>mz_zip_reader_locate_header_sig</FUNCTION>
+    <DECORATED>mz_zip_reader_locate_header_sig</DECORATED>
+    <FUNCLINE>1161</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>miniz.c</FILENAME>
+      <LINE>1952</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>6239</DEFECTCODE>
+    <DESCRIPTION>(&lt;non-zero constant&gt; &amp;&amp; &lt;expression&gt;) always evaluates to the result of &lt;expression&gt;:  Did you intend to use the bitwise-and (`&amp;`) operator? If not, consider removing the redundant '&lt;non-zero constant&gt;' and the `&amp;&amp;` operator.</DESCRIPTION>
+    <FUNCTION>mz_zip_reader_extract_to_mem_no_alloc1</FUNCTION>
+    <DECORATED>mz_zip_reader_extract_to_mem_no_alloc1</DECORATED>
+    <FUNCLINE>1863</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>miniz.c</FILENAME>
+      <LINE>1907</LINE>
+      <COLUMN>109</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>mz_zip_reader_extract_to_mem_no_alloc1</FUNCTION>
+    <DECORATED>mz_zip_reader_extract_to_mem_no_alloc1</DECORATED>
+    <FUNCLINE>1863</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>miniz.c</FILENAME>
+      <LINE>1907</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>mz_zip_reader_extract_to_mem_no_alloc1</FUNCTION>
+    <DECORATED>mz_zip_reader_extract_to_mem_no_alloc1</DECORATED>
+    <FUNCLINE>1863</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>miniz.c</FILENAME>
+      <LINE>2034</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>6239</DEFECTCODE>
+    <DESCRIPTION>(&lt;non-zero constant&gt; &amp;&amp; &lt;expression&gt;) always evaluates to the result of &lt;expression&gt;:  Did you intend to use the bitwise-and (`&amp;`) operator? If not, consider removing the redundant '&lt;non-zero constant&gt;' and the `&amp;&amp;` operator.</DESCRIPTION>
+    <FUNCTION>mz_zip_reader_extract_to_heap</FUNCTION>
+    <DECORATED>mz_zip_reader_extract_to_heap</DECORATED>
+    <FUNCLINE>2021</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

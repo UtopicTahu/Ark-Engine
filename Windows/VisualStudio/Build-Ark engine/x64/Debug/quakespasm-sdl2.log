@@ -1,0 +1,946 @@
+﻿  bgmusic.cpp
+  cd_sdl.cpp
+  Warning: SDL CDAudio support disabled
+  cfgfile.cpp
+  chase.cpp
+  cl_demo.cpp
+  cl_input.cpp
+  cl_main.cpp
+  cl_parse.cpp
+  cl_tent.cpp
+  cmd.cpp
+  common.cpp
+  console.cpp
+  crc.cpp
+  cvar.cpp
+  gl_draw.cpp
+  gl_fog.cpp
+  gl_mesh.cpp
+  gl_model.cpp
+  gl_refrag.cpp
+  gl_rlight.cpp
+  Generating Code...
+D:\Ark engine\Ark engine\common\gl_rlight.cpp(200,14): warning C4018: '<': signed/unsigned mismatch
+D:\Ark engine\Ark engine\common\gl_rlight.cpp(318,16): warning C4018: '<': signed/unsigned mismatch
+  Compiling...
+  gl_rmain.cpp
+  gl_rmisc.cpp
+  gl_screen.cpp
+  gl_sky.cpp
+  gl_texmgr.cpp
+  gl_vidsdl.cpp
+  gl_warp.cpp
+  host.cpp
+  host_cmd.cpp
+  image.cpp
+  in_sdl.cpp
+  keys.cpp
+  main_sdl.cpp
+  mathlib.cpp
+  menu.cpp
+  miniz.cpp
+  net_dgrm.cpp
+  net_loop.cpp
+  net_main.cpp
+  net_win.cpp
+  Generating Code...
+  Compiling...
+  net_wins.cpp
+  net_wipx.cpp
+  pl_win.cpp
+  pr_cmds.cpp
+  pr_edict.cpp
+  pr_exec.cpp
+  r_alias.cpp
+  r_brush.cpp
+  r_part.cpp
+  r_sprite.cpp
+  r_world.cpp
+  sbar.cpp
+  snd_codec.cpp
+  snd_dma.cpp
+  snd_flac.cpp
+  snd_mem.cpp
+  snd_mikmod.cpp
+  snd_mix.cpp
+  snd_modplug.cpp
+  snd_mp3.cpp
+  Generating Code...
+  Compiling...
+  snd_mp3tag.cpp
+  snd_opus.cpp
+  snd_sdl.cpp
+  snd_umx.cpp
+  snd_vorbis.cpp
+  snd_wave.cpp
+  snd_xmp.cpp
+  strlcat.cpp
+  strlcpy.cpp
+  sv_main.cpp
+  sv_move.cpp
+  sv_phys.cpp
+  sv_user.cpp
+  sys_sdl_win.cpp
+D:\Ark engine\Ark engine\common\sys_sdl_win.cpp(237,7): warning C4996: 'GetVersionExA': was declared deprecated
+  view.cpp
+  wad.cpp
+  world.cpp
+  zone.cpp
+  Generating Code...
+sv_main.obj : error LNK2019: unresolved external symbol __imp_atoi referenced in function SV_SpawnServer
+view.obj : error LNK2001: unresolved external symbol __imp_atoi
+gl_vidsdl.obj : error LNK2001: unresolved external symbol __imp_atoi
+host_cmd.obj : error LNK2001: unresolved external symbol __imp_atoi
+pr_edict.obj : error LNK2001: unresolved external symbol __imp_atoi
+r_part.obj : error LNK2001: unresolved external symbol __imp_atoi
+bgmusic.obj : error LNK2001: unresolved external symbol __imp_atoi
+cl_demo.obj : error LNK2001: unresolved external symbol __imp_atoi
+cl_input.obj : error LNK2001: unresolved external symbol __imp_atoi
+gl_texmgr.obj : error LNK2001: unresolved external symbol __imp_atoi
+view.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+wad.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+world.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+zone.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+sv_move.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+sv_phys.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+sv_user.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+sys_sdl_win.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_vorbis.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_wave.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_xmp.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+sv_main.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_mp3tag.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_opus.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_sdl.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_umx.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_codec.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_dma.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_mem.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+snd_mix.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+r_part.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+r_sprite.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+r_world.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+sbar.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+pr_edict.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+pr_exec.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+r_alias.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+r_brush.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+net_wins.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+net_wipx.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+pl_win.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+pr_cmds.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+menu.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+miniz.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+net_dgrm.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+net_main.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+in_sdl.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+keys.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+main_sdl.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+mathlib.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_warp.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+host.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+host_cmd.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+image.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_screen.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_sky.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_texmgr.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_vidsdl.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_model.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_rlight.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_rmain.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_rmisc.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+cvar.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_draw.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_fog.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+gl_mesh.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+cmd.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+common.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+console.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+crc.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+cl_input.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+cl_main.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+cl_parse.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+cl_tent.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+bgmusic.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+cfgfile.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+chase.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+cl_demo.obj : error LNK2001: unresolved external symbol _RTC_CheckStackVars
+wad.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+world.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+zone.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+sv_phys.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+sv_user.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+sys_sdl_win.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+view.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+strlcat.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+strlcpy.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+sv_main.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+sv_move.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_umx.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_vorbis.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_wave.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_xmp.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_mp3.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_mp3tag.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_opus.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_sdl.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_dma.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_flac.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_mem.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_mix.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+r_sprite.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+r_world.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+sbar.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+snd_codec.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+pr_exec.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+r_alias.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+r_brush.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+r_part.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+net_wipx.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+pl_win.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+pr_cmds.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+pr_edict.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+net_dgrm.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+net_loop.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+net_main.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+net_wins.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+main_sdl.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+mathlib.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+menu.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+miniz.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+host_cmd.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+image.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+in_sdl.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+keys.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_texmgr.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_vidsdl.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_warp.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+host.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_rmain.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_rmisc.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_screen.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_sky.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_mesh.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_model.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_refrag.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_rlight.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+crc.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cvar.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_draw.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+gl_fog.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cl_tent.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cmd.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+common.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+console.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cl_demo.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cl_input.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cl_main.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cl_parse.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+bgmusic.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cd_sdl.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+cfgfile.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+chase.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+wad.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+world.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+zone.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+sv_phys.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+sv_user.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+sys_sdl_win.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+view.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+strlcat.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+strlcpy.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+sv_main.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+sv_move.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_umx.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_vorbis.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_wave.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_xmp.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_mp3.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_mp3tag.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_opus.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_sdl.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_dma.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_flac.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_mem.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_mix.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+r_sprite.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+r_world.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+sbar.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+snd_codec.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+pr_exec.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+r_alias.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+r_brush.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+r_part.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+net_wipx.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+pl_win.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+pr_cmds.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+pr_edict.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+net_dgrm.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+net_loop.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+net_main.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+net_wins.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+main_sdl.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+mathlib.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+menu.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+miniz.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+host_cmd.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+image.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+in_sdl.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+keys.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_texmgr.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_vidsdl.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_warp.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+host.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_rmain.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_rmisc.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_screen.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_sky.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_mesh.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_model.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_refrag.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_rlight.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+crc.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cvar.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_draw.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+gl_fog.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cl_tent.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cmd.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+common.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+console.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cl_demo.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cl_input.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cl_main.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cl_parse.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+bgmusic.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cd_sdl.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+cfgfile.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+chase.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+world.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+zone.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+sv_user.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+view.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+wad.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_wave.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+sv_main.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+sv_move.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+sv_phys.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_mix.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_mp3tag.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_sdl.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_umx.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+sbar.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_codec.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_dma.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_mem.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+r_brush.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+r_part.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+r_sprite.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+r_world.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+pl_win.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+pr_cmds.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+pr_edict.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+r_alias.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+net_dgrm.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+net_main.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+net_wins.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+net_wipx.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+keys.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+mathlib.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+menu.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+miniz.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+host.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+host_cmd.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+image.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+in_sdl.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_sky.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_texmgr.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_vidsdl.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_warp.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_rlight.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_rmain.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_rmisc.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_screen.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_draw.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_fog.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_mesh.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+gl_model.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+cmd.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+common.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+console.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+cvar.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+cl_input.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+cl_main.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+cl_parse.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+cl_tent.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+bgmusic.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+cfgfile.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+chase.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+cl_demo.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+snd_mp3tag.obj : error LNK2001: unresolved external symbol __chkstk
+sv_main.obj : error LNK2001: unresolved external symbol __chkstk
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __chkstk
+gl_rmisc.obj : error LNK2001: unresolved external symbol __chkstk
+gl_sky.obj : error LNK2001: unresolved external symbol __chkstk
+miniz.obj : error LNK2001: unresolved external symbol __chkstk
+net_wins.obj : error LNK2001: unresolved external symbol __chkstk
+console.obj : error LNK2001: unresolved external symbol __chkstk
+gl_fog.obj : error LNK2001: unresolved external symbol __chkstk
+gl_mesh.obj : error LNK2001: unresolved external symbol __chkstk
+gl_model.obj : error LNK2001: unresolved external symbol __chkstk
+bgmusic.obj : error LNK2001: unresolved external symbol __chkstk
+cl_main.obj : error LNK2001: unresolved external symbol __chkstk
+cl_parse.obj : error LNK2001: unresolved external symbol __chkstk
+common.obj : error LNK2001: unresolved external symbol __chkstk
+world.obj : error LNK2001: unresolved external symbol __security_check_cookie
+zone.obj : error LNK2001: unresolved external symbol __security_check_cookie
+sv_user.obj : error LNK2001: unresolved external symbol __security_check_cookie
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __security_check_cookie
+view.obj : error LNK2001: unresolved external symbol __security_check_cookie
+wad.obj : error LNK2001: unresolved external symbol __security_check_cookie
+snd_wave.obj : error LNK2001: unresolved external symbol __security_check_cookie
+sv_main.obj : error LNK2001: unresolved external symbol __security_check_cookie
+sv_move.obj : error LNK2001: unresolved external symbol __security_check_cookie
+sv_phys.obj : error LNK2001: unresolved external symbol __security_check_cookie
+snd_mix.obj : error LNK2001: unresolved external symbol __security_check_cookie
+snd_mp3tag.obj : error LNK2001: unresolved external symbol __security_check_cookie
+snd_sdl.obj : error LNK2001: unresolved external symbol __security_check_cookie
+snd_umx.obj : error LNK2001: unresolved external symbol __security_check_cookie
+sbar.obj : error LNK2001: unresolved external symbol __security_check_cookie
+snd_codec.obj : error LNK2001: unresolved external symbol __security_check_cookie
+snd_dma.obj : error LNK2001: unresolved external symbol __security_check_cookie
+snd_mem.obj : error LNK2001: unresolved external symbol __security_check_cookie
+r_brush.obj : error LNK2001: unresolved external symbol __security_check_cookie
+r_part.obj : error LNK2001: unresolved external symbol __security_check_cookie
+r_sprite.obj : error LNK2001: unresolved external symbol __security_check_cookie
+r_world.obj : error LNK2001: unresolved external symbol __security_check_cookie
+pl_win.obj : error LNK2001: unresolved external symbol __security_check_cookie
+pr_cmds.obj : error LNK2001: unresolved external symbol __security_check_cookie
+pr_edict.obj : error LNK2001: unresolved external symbol __security_check_cookie
+r_alias.obj : error LNK2001: unresolved external symbol __security_check_cookie
+net_dgrm.obj : error LNK2001: unresolved external symbol __security_check_cookie
+net_main.obj : error LNK2001: unresolved external symbol __security_check_cookie
+net_wins.obj : error LNK2001: unresolved external symbol __security_check_cookie
+net_wipx.obj : error LNK2001: unresolved external symbol __security_check_cookie
+keys.obj : error LNK2001: unresolved external symbol __security_check_cookie
+mathlib.obj : error LNK2001: unresolved external symbol __security_check_cookie
+menu.obj : error LNK2001: unresolved external symbol __security_check_cookie
+miniz.obj : error LNK2001: unresolved external symbol __security_check_cookie
+host.obj : error LNK2001: unresolved external symbol __security_check_cookie
+host_cmd.obj : error LNK2001: unresolved external symbol __security_check_cookie
+image.obj : error LNK2001: unresolved external symbol __security_check_cookie
+in_sdl.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_sky.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_texmgr.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_vidsdl.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_warp.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_rlight.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_rmain.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_rmisc.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_screen.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_draw.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_fog.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_mesh.obj : error LNK2001: unresolved external symbol __security_check_cookie
+gl_model.obj : error LNK2001: unresolved external symbol __security_check_cookie
+cmd.obj : error LNK2001: unresolved external symbol __security_check_cookie
+common.obj : error LNK2001: unresolved external symbol __security_check_cookie
+console.obj : error LNK2001: unresolved external symbol __security_check_cookie
+cvar.obj : error LNK2001: unresolved external symbol __security_check_cookie
+cl_input.obj : error LNK2001: unresolved external symbol __security_check_cookie
+cl_main.obj : error LNK2001: unresolved external symbol __security_check_cookie
+cl_parse.obj : error LNK2001: unresolved external symbol __security_check_cookie
+cl_tent.obj : error LNK2001: unresolved external symbol __security_check_cookie
+bgmusic.obj : error LNK2001: unresolved external symbol __security_check_cookie
+cfgfile.obj : error LNK2001: unresolved external symbol __security_check_cookie
+chase.obj : error LNK2001: unresolved external symbol __security_check_cookie
+cl_demo.obj : error LNK2001: unresolved external symbol __security_check_cookie
+world.obj : error LNK2019: unresolved external symbol __security_cookie referenced in function SV_LinkEdict
+zone.obj : error LNK2001: unresolved external symbol __security_cookie
+sv_user.obj : error LNK2001: unresolved external symbol __security_cookie
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __security_cookie
+view.obj : error LNK2001: unresolved external symbol __security_cookie
+wad.obj : error LNK2001: unresolved external symbol __security_cookie
+snd_wave.obj : error LNK2001: unresolved external symbol __security_cookie
+sv_main.obj : error LNK2001: unresolved external symbol __security_cookie
+sv_move.obj : error LNK2001: unresolved external symbol __security_cookie
+sv_phys.obj : error LNK2001: unresolved external symbol __security_cookie
+snd_mix.obj : error LNK2001: unresolved external symbol __security_cookie
+snd_mp3tag.obj : error LNK2001: unresolved external symbol __security_cookie
+snd_sdl.obj : error LNK2001: unresolved external symbol __security_cookie
+snd_umx.obj : error LNK2001: unresolved external symbol __security_cookie
+sbar.obj : error LNK2001: unresolved external symbol __security_cookie
+snd_codec.obj : error LNK2001: unresolved external symbol __security_cookie
+snd_dma.obj : error LNK2001: unresolved external symbol __security_cookie
+snd_mem.obj : error LNK2001: unresolved external symbol __security_cookie
+r_brush.obj : error LNK2001: unresolved external symbol __security_cookie
+r_part.obj : error LNK2001: unresolved external symbol __security_cookie
+r_sprite.obj : error LNK2001: unresolved external symbol __security_cookie
+r_world.obj : error LNK2001: unresolved external symbol __security_cookie
+pl_win.obj : error LNK2001: unresolved external symbol __security_cookie
+pr_cmds.obj : error LNK2001: unresolved external symbol __security_cookie
+pr_edict.obj : error LNK2001: unresolved external symbol __security_cookie
+r_alias.obj : error LNK2001: unresolved external symbol __security_cookie
+net_dgrm.obj : error LNK2001: unresolved external symbol __security_cookie
+net_main.obj : error LNK2001: unresolved external symbol __security_cookie
+net_wins.obj : error LNK2001: unresolved external symbol __security_cookie
+net_wipx.obj : error LNK2001: unresolved external symbol __security_cookie
+keys.obj : error LNK2001: unresolved external symbol __security_cookie
+mathlib.obj : error LNK2001: unresolved external symbol __security_cookie
+menu.obj : error LNK2001: unresolved external symbol __security_cookie
+miniz.obj : error LNK2001: unresolved external symbol __security_cookie
+host.obj : error LNK2001: unresolved external symbol __security_cookie
+host_cmd.obj : error LNK2001: unresolved external symbol __security_cookie
+image.obj : error LNK2001: unresolved external symbol __security_cookie
+in_sdl.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_sky.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_texmgr.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_vidsdl.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_warp.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_rlight.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_rmain.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_rmisc.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_screen.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_draw.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_fog.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_mesh.obj : error LNK2001: unresolved external symbol __security_cookie
+gl_model.obj : error LNK2001: unresolved external symbol __security_cookie
+cmd.obj : error LNK2001: unresolved external symbol __security_cookie
+common.obj : error LNK2001: unresolved external symbol __security_cookie
+console.obj : error LNK2001: unresolved external symbol __security_cookie
+cvar.obj : error LNK2001: unresolved external symbol __security_cookie
+cl_input.obj : error LNK2001: unresolved external symbol __security_cookie
+cl_main.obj : error LNK2001: unresolved external symbol __security_cookie
+cl_parse.obj : error LNK2001: unresolved external symbol __security_cookie
+cl_tent.obj : error LNK2001: unresolved external symbol __security_cookie
+bgmusic.obj : error LNK2001: unresolved external symbol __security_cookie
+cfgfile.obj : error LNK2001: unresolved external symbol __security_cookie
+chase.obj : error LNK2001: unresolved external symbol __security_cookie
+cl_demo.obj : error LNK2001: unresolved external symbol __security_cookie
+view.obj : error LNK2001: unresolved external symbol _fltused
+world.obj : error LNK2001: unresolved external symbol _fltused
+zone.obj : error LNK2001: unresolved external symbol _fltused
+sv_move.obj : error LNK2001: unresolved external symbol _fltused
+sv_phys.obj : error LNK2001: unresolved external symbol _fltused
+sv_user.obj : error LNK2001: unresolved external symbol _fltused
+sys_sdl_win.obj : error LNK2001: unresolved external symbol _fltused
+snd_mix.obj : error LNK2001: unresolved external symbol _fltused
+snd_sdl.obj : error LNK2001: unresolved external symbol _fltused
+snd_vorbis.obj : error LNK2001: unresolved external symbol _fltused
+sv_main.obj : error LNK2001: unresolved external symbol _fltused
+r_world.obj : error LNK2001: unresolved external symbol _fltused
+sbar.obj : error LNK2001: unresolved external symbol _fltused
+snd_dma.obj : error LNK2001: unresolved external symbol _fltused
+snd_mem.obj : error LNK2001: unresolved external symbol _fltused
+r_alias.obj : error LNK2001: unresolved external symbol _fltused
+r_brush.obj : error LNK2001: unresolved external symbol _fltused
+r_part.obj : error LNK2001: unresolved external symbol _fltused
+r_sprite.obj : error LNK2001: unresolved external symbol _fltused
+net_main.obj : error LNK2001: unresolved external symbol _fltused
+pr_cmds.obj : error LNK2001: unresolved external symbol _fltused
+pr_edict.obj : error LNK2001: unresolved external symbol _fltused
+pr_exec.obj : error LNK2001: unresolved external symbol _fltused
+main_sdl.obj : error LNK2001: unresolved external symbol _fltused
+mathlib.obj : error LNK2001: unresolved external symbol _fltused
+menu.obj : error LNK2001: unresolved external symbol _fltused
+net_dgrm.obj : error LNK2001: unresolved external symbol _fltused
+host_cmd.obj : error LNK2001: unresolved external symbol _fltused
+image.obj : error LNK2001: unresolved external symbol _fltused
+in_sdl.obj : error LNK2001: unresolved external symbol _fltused
+keys.obj : error LNK2001: unresolved external symbol _fltused
+gl_texmgr.obj : error LNK2001: unresolved external symbol _fltused
+gl_vidsdl.obj : error LNK2001: unresolved external symbol _fltused
+gl_warp.obj : error LNK2001: unresolved external symbol _fltused
+host.obj : error LNK2001: unresolved external symbol _fltused
+gl_rmain.obj : error LNK2001: unresolved external symbol _fltused
+gl_rmisc.obj : error LNK2001: unresolved external symbol _fltused
+gl_screen.obj : error LNK2001: unresolved external symbol _fltused
+gl_sky.obj : error LNK2001: unresolved external symbol _fltused
+gl_mesh.obj : error LNK2001: unresolved external symbol _fltused
+gl_model.obj : error LNK2001: unresolved external symbol _fltused
+gl_refrag.obj : error LNK2001: unresolved external symbol _fltused
+gl_rlight.obj : error LNK2001: unresolved external symbol _fltused
+console.obj : error LNK2001: unresolved external symbol _fltused
+cvar.obj : error LNK2001: unresolved external symbol _fltused
+gl_draw.obj : error LNK2001: unresolved external symbol _fltused
+gl_fog.obj : error LNK2001: unresolved external symbol _fltused
+cl_main.obj : error LNK2001: unresolved external symbol _fltused
+cl_parse.obj : error LNK2001: unresolved external symbol _fltused
+cl_tent.obj : error LNK2001: unresolved external symbol _fltused
+common.obj : error LNK2001: unresolved external symbol _fltused
+bgmusic.obj : error LNK2001: unresolved external symbol _fltused
+chase.obj : error LNK2001: unresolved external symbol _fltused
+cl_demo.obj : error LNK2001: unresolved external symbol _fltused
+cl_input.obj : error LNK2001: unresolved external symbol _fltused
+pr_cmds.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+pr_edict.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+menu.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+net_dgrm.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+net_wins.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+net_wipx.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+gl_sky.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+host_cmd.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+image.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+keys.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+gl_fog.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+gl_mesh.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+gl_model.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+gl_rmisc.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+cfgfile.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+cmd.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+common.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+console.obj : error LNK2001: unresolved external symbol __report_rangecheckfailure
+snd_wave.obj : error LNK2001: unresolved external symbol __imp_ftell
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __imp_ftell
+cfgfile.obj : error LNK2001: unresolved external symbol __imp_ftell
+common.obj : error LNK2001: unresolved external symbol __imp_ftell
+image.obj : error LNK2001: unresolved external symbol __imp_ftell
+snd_codec.obj : error LNK2001: unresolved external symbol __imp_ftell
+zone.obj : error LNK2001: unresolved external symbol memset
+sv_main.obj : error LNK2001: unresolved external symbol memset
+sv_user.obj : error LNK2001: unresolved external symbol memset
+sys_sdl_win.obj : error LNK2001: unresolved external symbol memset
+world.obj : error LNK2001: unresolved external symbol memset
+snd_mem.obj : error LNK2001: unresolved external symbol memset
+snd_mix.obj : error LNK2001: unresolved external symbol memset
+snd_sdl.obj : error LNK2001: unresolved external symbol memset
+snd_umx.obj : error LNK2001: unresolved external symbol memset
+net_wipx.obj : error LNK2001: unresolved external symbol memset
+pr_edict.obj : error LNK2001: unresolved external symbol memset
+r_brush.obj : error LNK2001: unresolved external symbol memset
+snd_dma.obj : error LNK2001: unresolved external symbol memset
+host_cmd.obj : error LNK2001: unresolved external symbol memset
+image.obj : error LNK2001: unresolved external symbol memset
+miniz.obj : error LNK2001: unresolved external symbol memset
+net_wins.obj : error LNK2001: unresolved external symbol memset
+gl_mesh.obj : error LNK2001: unresolved external symbol memset
+gl_model.obj : error LNK2001: unresolved external symbol memset
+gl_rmisc.obj : error LNK2001: unresolved external symbol memset
+host.obj : error LNK2001: unresolved external symbol memset
+cl_tent.obj : error LNK2001: unresolved external symbol memset
+common.obj : error LNK2001: unresolved external symbol memset
+console.obj : error LNK2001: unresolved external symbol memset
+gl_draw.obj : error LNK2001: unresolved external symbol memset
+cfgfile.obj : error LNK2001: unresolved external symbol memset
+chase.obj : error LNK2001: unresolved external symbol memset
+cl_main.obj : error LNK2001: unresolved external symbol memset
+cl_parse.obj : error LNK2001: unresolved external symbol memset
+host_cmd.obj : error LNK2001: unresolved external symbol strchr
+cfgfile.obj : error LNK2001: unresolved external symbol strchr
+common.obj : error LNK2001: unresolved external symbol strchr
+gl_texmgr.obj : error LNK2001: unresolved external symbol strchr
+gl_vidsdl.obj : error LNK2001: unresolved external symbol strchr
+gl_vidsdl.obj : error LNK2001: unresolved external symbol strstr
+host_cmd.obj : error LNK2001: unresolved external symbol strstr
+cfgfile.obj : error LNK2001: unresolved external symbol strstr
+cl_demo.obj : error LNK2001: unresolved external symbol strstr
+common.obj : error LNK2001: unresolved external symbol strstr
+gl_texmgr.obj : error LNK2001: unresolved external symbol strstr
+sys_sdl_win.obj : error LNK2019: unresolved external symbol __imp_fclose referenced in function Sys_Init
+keys.obj : error LNK2001: unresolved external symbol __imp_fclose
+menu.obj : error LNK2001: unresolved external symbol __imp_fclose
+r_part.obj : error LNK2001: unresolved external symbol __imp_fclose
+snd_codec.obj : error LNK2001: unresolved external symbol __imp_fclose
+gl_texmgr.obj : error LNK2001: unresolved external symbol __imp_fclose
+host.obj : error LNK2001: unresolved external symbol __imp_fclose
+host_cmd.obj : error LNK2001: unresolved external symbol __imp_fclose
+image.obj : error LNK2001: unresolved external symbol __imp_fclose
+cl_demo.obj : error LNK2001: unresolved external symbol __imp_fclose
+common.obj : error LNK2001: unresolved external symbol __imp_fclose
+console.obj : error LNK2001: unresolved external symbol __imp_fclose
+gl_model.obj : error LNK2001: unresolved external symbol __imp_fclose
+cl_demo.obj : error LNK2019: unresolved external symbol __imp_fflush referenced in function CL_WriteDemoMessage
+host_cmd.obj : error LNK2001: unresolved external symbol __imp_fflush
+cl_demo.obj : error LNK2019: unresolved external symbol __imp_fgetc referenced in function CL_PlayDemo_f
+common.obj : error LNK2001: unresolved external symbol __imp_fgetc
+image.obj : error LNK2001: unresolved external symbol __imp_fgetc
+keys.obj : error LNK2001: unresolved external symbol __imp_fgetc
+sys_sdl_win.obj : error LNK2019: unresolved external symbol __imp_fopen referenced in function Sys_SetDPIAware
+host_cmd.obj : error LNK2001: unresolved external symbol __imp_fopen
+image.obj : error LNK2001: unresolved external symbol __imp_fopen
+keys.obj : error LNK2001: unresolved external symbol __imp_fopen
+menu.obj : error LNK2001: unresolved external symbol __imp_fopen
+cl_demo.obj : error LNK2001: unresolved external symbol __imp_fopen
+common.obj : error LNK2001: unresolved external symbol __imp_fopen
+console.obj : error LNK2001: unresolved external symbol __imp_fopen
+host.obj : error LNK2001: unresolved external symbol __imp_fopen
+image.obj : error LNK2001: unresolved external symbol __imp_fread
+snd_wave.obj : error LNK2001: unresolved external symbol __imp_fread
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __imp_fread
+cl_demo.obj : error LNK2001: unresolved external symbol __imp_fread
+common.obj : error LNK2001: unresolved external symbol __imp_fread
+gl_model.obj : error LNK2001: unresolved external symbol __imp_fread
+gl_texmgr.obj : error LNK2001: unresolved external symbol __imp_fread
+cl_demo.obj : error LNK2019: unresolved external symbol __imp_fwrite referenced in function CL_WriteDemoMessage
+image.obj : error LNK2001: unresolved external symbol __imp_fwrite
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __imp_fwrite
+host_cmd.obj : error LNK2019: unresolved external symbol __imp___stdio_common_vfprintf referenced in function Host_Savegame_f
+keys.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfprintf
+pr_edict.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfprintf
+cl_demo.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfprintf
+console.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfprintf
+cvar.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfprintf
+host.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfprintf
+cl_demo.obj : error LNK2019: unresolved external symbol __imp___stdio_common_vfscanf referenced in function _vfscanf_l
+menu.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfscanf
+r_part.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfscanf
+pr_edict.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+r_brush.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+sbar.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+sv_main.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+net_dgrm.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+net_wins.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+net_wipx.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+pr_cmds.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+gl_screen.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+host_cmd.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+keys.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+menu.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+cl_main.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+common.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+gl_draw.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+gl_model.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsprintf
+r_part.obj : error LNK2001: unresolved external symbol __imp_rand
+r_world.obj : error LNK2001: unresolved external symbol __imp_rand
+snd_dma.obj : error LNK2001: unresolved external symbol __imp_rand
+sv_move.obj : error LNK2001: unresolved external symbol __imp_rand
+host_cmd.obj : error LNK2001: unresolved external symbol __imp_rand
+menu.obj : error LNK2001: unresolved external symbol __imp_rand
+pr_cmds.obj : error LNK2001: unresolved external symbol __imp_rand
+r_alias.obj : error LNK2001: unresolved external symbol __imp_rand
+cl_main.obj : error LNK2001: unresolved external symbol __imp_rand
+cl_parse.obj : error LNK2001: unresolved external symbol __imp_rand
+cl_tent.obj : error LNK2001: unresolved external symbol __imp_rand
+host.obj : error LNK2001: unresolved external symbol __imp_rand
+snd_sdl.obj : error LNK2001: unresolved external symbol memcpy
+sv_main.obj : error LNK2001: unresolved external symbol memcpy
+zone.obj : error LNK2001: unresolved external symbol memcpy
+r_brush.obj : error LNK2001: unresolved external symbol memcpy
+snd_flac.obj : error LNK2001: unresolved external symbol memcpy
+snd_mix.obj : error LNK2001: unresolved external symbol memcpy
+snd_mp3.obj : error LNK2001: unresolved external symbol memcpy
+miniz.obj : error LNK2001: unresolved external symbol memcpy
+net_main.obj : error LNK2001: unresolved external symbol memcpy
+net_wipx.obj : error LNK2001: unresolved external symbol memcpy
+pr_cmds.obj : error LNK2001: unresolved external symbol memcpy
+gl_texmgr.obj : error LNK2001: unresolved external symbol memcpy
+host_cmd.obj : error LNK2001: unresolved external symbol memcpy
+image.obj : error LNK2001: unresolved external symbol memcpy
+keys.obj : error LNK2001: unresolved external symbol memcpy
+gl_draw.obj : error LNK2001: unresolved external symbol memcpy
+gl_mesh.obj : error LNK2001: unresolved external symbol memcpy
+gl_model.obj : error LNK2001: unresolved external symbol memcpy
+gl_sky.obj : error LNK2001: unresolved external symbol memcpy
+cl_parse.obj : error LNK2001: unresolved external symbol memcpy
+cmd.obj : error LNK2001: unresolved external symbol memcpy
+common.obj : error LNK2001: unresolved external symbol memcpy
+cvar.obj : error LNK2001: unresolved external symbol memcpy
+cl_tent.obj : error LNK2019: unresolved external symbol __imp_srand referenced in function CL_UpdateTEnts
+gl_rmain.obj : error LNK2001: unresolved external symbol __imp_srand
+r_alias.obj : error LNK2001: unresolved external symbol __imp_srand
+r_world.obj : error LNK2001: unresolved external symbol __imp_srand
+cl_tent.obj : error LNK2019: unresolved external symbol atan2 referenced in function CL_UpdateTEnts
+mathlib.obj : error LNK2001: unresolved external symbol atan2
+pr_cmds.obj : error LNK2001: unresolved external symbol atan2
+r_sprite.obj : error LNK2001: unresolved external symbol atan2
+pr_cmds.obj : error LNK2001: unresolved external symbol sqrt
+sv_user.obj : error LNK2001: unresolved external symbol sqrt
+view.obj : error LNK2001: unresolved external symbol sqrt
+cl_tent.obj : error LNK2001: unresolved external symbol sqrt
+gl_model.obj : error LNK2001: unresolved external symbol sqrt
+gl_sky.obj : error LNK2001: unresolved external symbol sqrt
+mathlib.obj : error LNK2001: unresolved external symbol sqrt
+snd_mp3.obj : error LNK2001: unresolved external symbol memmove
+zone.obj : error LNK2001: unresolved external symbol memmove
+cmd.obj : error LNK2001: unresolved external symbol memmove
+keys.obj : error LNK2001: unresolved external symbol memmove
+net_dgrm.obj : error LNK2001: unresolved external symbol memmove
+net_loop.obj : error LNK2001: unresolved external symbol memmove
+pr_exec.obj : error LNK2001: unresolved external symbol strcmp
+snd_dma.obj : error LNK2001: unresolved external symbol strcmp
+sv_main.obj : error LNK2001: unresolved external symbol strcmp
+wad.obj : error LNK2001: unresolved external symbol strcmp
+keys.obj : error LNK2001: unresolved external symbol strcmp
+net_main.obj : error LNK2001: unresolved external symbol strcmp
+pr_cmds.obj : error LNK2001: unresolved external symbol strcmp
+pr_edict.obj : error LNK2001: unresolved external symbol strcmp
+gl_sky.obj : error LNK2001: unresolved external symbol strcmp
+gl_texmgr.obj : error LNK2001: unresolved external symbol strcmp
+gl_vidsdl.obj : error LNK2001: unresolved external symbol strcmp
+host_cmd.obj : error LNK2001: unresolved external symbol strcmp
+gl_draw.obj : error LNK2001: unresolved external symbol strcmp
+gl_fog.obj : error LNK2001: unresolved external symbol strcmp
+gl_model.obj : error LNK2001: unresolved external symbol strcmp
+gl_rmisc.obj : error LNK2001: unresolved external symbol strcmp
+cmd.obj : error LNK2001: unresolved external symbol strcmp
+common.obj : error LNK2001: unresolved external symbol strcmp
+console.obj : error LNK2001: unresolved external symbol strcmp
+cvar.obj : error LNK2001: unresolved external symbol strcmp
+sv_main.obj : error LNK2001: unresolved external symbol strcpy
+menu.obj : error LNK2001: unresolved external symbol strcpy
+net_wins.obj : error LNK2001: unresolved external symbol strcpy
+pr_edict.obj : error LNK2001: unresolved external symbol strcpy
+snd_umx.obj : error LNK2001: unresolved external symbol strcpy
+cmd.obj : error LNK2001: unresolved external symbol strcpy
+console.obj : error LNK2001: unresolved external symbol strcpy
+gl_draw.obj : error LNK2001: unresolved external symbol strcpy
+gl_model.obj : error LNK2001: unresolved external symbol strcpy
+snd_umx.obj : error LNK2001: unresolved external symbol strlen
+strlcat.obj : error LNK2001: unresolved external symbol strlen
+sys_sdl_win.obj : error LNK2001: unresolved external symbol strlen
+zone.obj : error LNK2001: unresolved external symbol strlen
+pr_edict.obj : error LNK2001: unresolved external symbol strlen
+pr_exec.obj : error LNK2001: unresolved external symbol strlen
+sbar.obj : error LNK2001: unresolved external symbol strlen
+snd_dma.obj : error LNK2001: unresolved external symbol strlen
+host_cmd.obj : error LNK2001: unresolved external symbol strlen
+keys.obj : error LNK2001: unresolved external symbol strlen
+menu.obj : error LNK2001: unresolved external symbol strlen
+miniz.obj : error LNK2001: unresolved external symbol strlen
+gl_rmisc.obj : error LNK2001: unresolved external symbol strlen
+gl_screen.obj : error LNK2001: unresolved external symbol strlen
+gl_sky.obj : error LNK2001: unresolved external symbol strlen
+gl_vidsdl.obj : error LNK2001: unresolved external symbol strlen
+cmd.obj : error LNK2001: unresolved external symbol strlen
+common.obj : error LNK2001: unresolved external symbol strlen
+console.obj : error LNK2001: unresolved external symbol strlen
+gl_fog.obj : error LNK2001: unresolved external symbol strlen
+common.obj : error LNK2019: unresolved external symbol __imp__errno referenced in function FS_fread
+snd_opus.obj : error LNK2001: unresolved external symbol __imp__errno
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __imp__errno
+common.obj : error LNK2019: unresolved external symbol __imp_clearerr referenced in function FS_rewind
+common.obj : error LNK2019: unresolved external symbol __imp_ferror referenced in function COM_LoadMallocFile_TextMode_OSPath
+common.obj : error LNK2019: unresolved external symbol __imp_fgets referenced in function FS_fgets
+snd_wave.obj : error LNK2001: unresolved external symbol __imp_fseek
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __imp_fseek
+common.obj : error LNK2001: unresolved external symbol __imp_fseek
+gl_model.obj : error LNK2001: unresolved external symbol __imp_fseek
+gl_texmgr.obj : error LNK2001: unresolved external symbol __imp_fseek
+image.obj : error LNK2001: unresolved external symbol __imp_fseek
+net_wipx.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsscanf
+common.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsscanf
+gl_fog.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsscanf
+gl_vidsdl.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsscanf
+net_wins.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vsscanf
+snd_mp3.obj : error LNK2001: unresolved external symbol __imp_calloc
+snd_sdl.obj : error LNK2001: unresolved external symbol __imp_calloc
+common.obj : error LNK2001: unresolved external symbol __imp_calloc
+image.obj : error LNK2001: unresolved external symbol __imp_calloc
+r_brush.obj : error LNK2001: unresolved external symbol __imp_calloc
+snd_mix.obj : error LNK2001: unresolved external symbol __imp_calloc
+snd_sdl.obj : error LNK2019: unresolved external symbol __imp_free referenced in function SNDDMA_Init
+wad.obj : error LNK2001: unresolved external symbol __imp_free
+r_brush.obj : error LNK2001: unresolved external symbol __imp_free
+snd_flac.obj : error LNK2001: unresolved external symbol __imp_free
+snd_mix.obj : error LNK2001: unresolved external symbol __imp_free
+snd_mp3.obj : error LNK2001: unresolved external symbol __imp_free
+host.obj : error LNK2001: unresolved external symbol __imp_free
+host_cmd.obj : error LNK2001: unresolved external symbol __imp_free
+image.obj : error LNK2001: unresolved external symbol __imp_free
+miniz.obj : error LNK2001: unresolved external symbol __imp_free
+common.obj : error LNK2001: unresolved external symbol __imp_free
+gl_mesh.obj : error LNK2001: unresolved external symbol __imp_free
+gl_screen.obj : error LNK2001: unresolved external symbol __imp_free
+gl_texmgr.obj : error LNK2001: unresolved external symbol __imp_free
+snd_flac.obj : error LNK2019: unresolved external symbol __imp_malloc referenced in function flac_meta_func
+snd_mix.obj : error LNK2001: unresolved external symbol __imp_malloc
+sv_main.obj : error LNK2001: unresolved external symbol __imp_malloc
+image.obj : error LNK2001: unresolved external symbol __imp_malloc
+main_sdl.obj : error LNK2001: unresolved external symbol __imp_malloc
+miniz.obj : error LNK2001: unresolved external symbol __imp_malloc
+r_brush.obj : error LNK2001: unresolved external symbol __imp_malloc
+common.obj : error LNK2001: unresolved external symbol __imp_malloc
+gl_mesh.obj : error LNK2001: unresolved external symbol __imp_malloc
+gl_screen.obj : error LNK2001: unresolved external symbol __imp_malloc
+gl_texmgr.obj : error LNK2001: unresolved external symbol __imp_malloc
+pr_cmds.obj : error LNK2001: unresolved external symbol __imp_realloc
+r_brush.obj : error LNK2001: unresolved external symbol __imp_realloc
+sv_main.obj : error LNK2001: unresolved external symbol __imp_realloc
+common.obj : error LNK2001: unresolved external symbol __imp_realloc
+gl_model.obj : error LNK2001: unresolved external symbol __imp_realloc
+image.obj : error LNK2001: unresolved external symbol __imp_realloc
+miniz.obj : error LNK2001: unresolved external symbol __imp_realloc
+console.obj : error LNK2019: unresolved external symbol __imp__localtime64 referenced in function localtime
+console.obj : error LNK2019: unresolved external symbol __imp_strftime referenced in function LOG_Init
+console.obj : error LNK2019: unresolved external symbol __imp__time64 referenced in function time
+console.obj : error LNK2019: unresolved external symbol __imp_close referenced in function LOG_Close
+console.obj : error LNK2019: unresolved external symbol __imp_open referenced in function LOG_Init
+console.obj : error LNK2019: unresolved external symbol __imp_write referenced in function Con_DebugLog
+console.obj : error LNK2019: unresolved external symbol __imp___acrt_iob_func referenced in function LOG_Init
+host.obj : error LNK2001: unresolved external symbol __imp___acrt_iob_func
+sys_sdl_win.obj : error LNK2001: unresolved external symbol __imp___acrt_iob_func
+snd_mem.obj : error LNK2001: unresolved external symbol __imp_strncmp
+snd_wave.obj : error LNK2001: unresolved external symbol __imp_strncmp
+zone.obj : error LNK2001: unresolved external symbol __imp_strncmp
+console.obj : error LNK2001: unresolved external symbol __imp_strncmp
+gl_model.obj : error LNK2001: unresolved external symbol __imp_strncmp
+menu.obj : error LNK2001: unresolved external symbol __imp_strncmp
+pr_edict.obj : error LNK2001: unresolved external symbol __imp_strncmp
+console.obj : error LNK2019: unresolved external symbol __imp_strncpy referenced in function Con_Dump_f
+gl_screen.obj : error LNK2001: unresolved external symbol __imp_strncpy
+r_brush.obj : error LNK2001: unresolved external symbol fabs
+sv_phys.obj : error LNK2001: unresolved external symbol fabs
+view.obj : error LNK2001: unresolved external symbol fabs
+gl_model.obj : error LNK2001: unresolved external symbol fabs
+gl_sky.obj : error LNK2001: unresolved external symbol fabs
+mathlib.obj : error LNK2001: unresolved external symbol fabs
+pr_cmds.obj : error LNK2001: unresolved external symbol fabs
+gl_model.obj : error LNK2019: unresolved external symbol __imp_ceil referenced in function CalcSurfaceExtents
+pr_cmds.obj : error LNK2001: unresolved external symbol __imp_ceil
+gl_model.obj : error LNK2019: unresolved external symbol __imp_floor referenced in function CalcSurfaceExtents
+gl_warp.obj : error LNK2001: unresolved external symbol __imp_floor
+mathlib.obj : error LNK2001: unresolved external symbol __imp_floor
+pr_cmds.obj : error LNK2001: unresolved external symbol __imp_floor
+sv_move.obj : error LNK2019: unresolved external symbol cos referenced in function SV_NewChaseDir
+sv_user.obj : error LNK2001: unresolved external symbol cos
+r_alias.obj : error LNK2001: unresolved external symbol cos
+r_part.obj : error LNK2001: unresolved external symbol cos
+r_sprite.obj : error LNK2001: unresolved external symbol cos
+snd_mix.obj : error LNK2001: unresolved external symbol cos
+gl_rlight.obj : error LNK2001: unresolved external symbol cos
+gl_rmain.obj : error LNK2001: unresolved external symbol cos
+mathlib.obj : error LNK2001: unresolved external symbol cos
+pr_cmds.obj : error LNK2001: unresolved external symbol cos
+sv_move.obj : error LNK2019: unresolved external symbol sin referenced in function SV_MoveToGoal
+sv_user.obj : error LNK2001: unresolved external symbol sin
+view.obj : error LNK2001: unresolved external symbol sin
+r_alias.obj : error LNK2001: unresolved external symbol sin
+r_part.obj : error LNK2001: unresolved external symbol sin
+r_sprite.obj : error LNK2001: unresolved external symbol sin
+snd_mix.obj : error LNK2001: unresolved external symbol sin
+gl_rlight.obj : error LNK2001: unresolved external symbol sin
+gl_rmain.obj : error LNK2001: unresolved external symbol sin
+mathlib.obj : error LNK2001: unresolved external symbol sin
+pr_cmds.obj : error LNK2001: unresolved external symbol sin
+gl_rmain.obj : error LNK2019: unresolved external symbol atan referenced in function R_SetupView
+gl_screen.obj : error LNK2001: unresolved external symbol atan
+gl_rmain.obj : error LNK2019: unresolved external symbol tan referenced in function GL_SetFrustum
+gl_screen.obj : error LNK2001: unresolved external symbol tan
+r_alias.obj : error LNK2001: unresolved external symbol tan
+snd_dma.obj : error LNK2001: unresolved external symbol __imp_atof
+gl_rmisc.obj : error LNK2001: unresolved external symbol __imp_atof
+gl_sky.obj : error LNK2001: unresolved external symbol __imp_atof
+host_cmd.obj : error LNK2001: unresolved external symbol __imp_atof
+pr_edict.obj : error LNK2001: unresolved external symbol __imp_atof
+gl_vidsdl.obj : error LNK2019: unresolved external symbol __imp_putenv referenced in function VID_Init
+gl_vidsdl.obj : error LNK2019: unresolved external symbol strcat referenced in function GL_MakeNiceExtensionsList
+pr_edict.obj : error LNK2001: unresolved external symbol strcat
+gl_vidsdl.obj : error LNK2019: unresolved external symbol __imp_strtok referenced in function GL_MakeNiceExtensionsList
+host.obj : error LNK2019: unresolved external symbol longjmp referenced in function Host_Error
+host.obj : error LNK2019: unresolved external symbol _setjmp referenced in function _Host_Frame
+in_sdl.obj : error LNK2019: unresolved external symbol __imp_powf referenced in function IN_ApplyEasing
+in_sdl.obj : error LNK2019: unresolved external symbol __imp_sqrtf referenced in function IN_AxisMagnitude
+keys.obj : error LNK2019: unresolved external symbol __imp_ungetc referenced in function History_Init
+main_sdl.obj : error LNK2019: unresolved external symbol atexit referenced in function Sys_InitSDL
+miniz.obj : error LNK2019: unresolved external symbol memcmp referenced in function mz_zip_string_equal
+net_wipx.obj : error LNK2001: unresolved external symbol memcmp
+snd_mp3tag.obj : error LNK2001: unresolved external symbol memcmp
+snd_umx.obj : error LNK2001: unresolved external symbol memcmp
+snd_dma.obj : error LNK2019: unresolved external symbol strrchr referenced in function S_Play
+snd_mp3tag.obj : error LNK2019: unresolved external symbol __imp_strtol referenced in function get_lyrics3v2_len
+sv_move.obj : error LNK2019: unresolved external symbol abs referenced in function SV_NewChaseDir
+sys_sdl_win.obj : error LNK2019: unresolved external symbol __imp_strerror referenced in function Sys_FileOpenWrite
+sys_sdl_win.obj : error LNK2019: unresolved external symbol __imp_fputs referenced in function Sys_Error
+sys_sdl_win.obj : error LNK2019: unresolved external symbol __imp_exit referenced in function Sys_Quit
+LINK : error LNK2001: unresolved external symbol WinMainCRTStartup
+D:\Ark engine\Ark engine\Windows\VisualStudio\Build-Ark engine\x64\Debug\Ark engine.exe : fatal error LNK1120: 76 unresolved externals

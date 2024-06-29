@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wins.c</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(3) when some signed type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>WINS_GetLocalAddress</FUNCTION>
+    <DECORATED>WINS_GetLocalAddress</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wins.c</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(4) when some signed type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>WINS_GetLocalAddress</FUNCTION>
+    <DECORATED>WINS_GetLocalAddress</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wins.c</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(5) when some signed type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>WINS_GetLocalAddress</FUNCTION>
+    <DECORATED>WINS_GetLocalAddress</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wins.c</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned long' passed as _Param_(6) when some signed type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>WINS_GetLocalAddress</FUNCTION>
+    <DECORATED>WINS_GetLocalAddress</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wins.c</FILENAME>
+      <LINE>434</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(7) when some signed type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>WINS_AddrToString</FUNCTION>
+    <DECORATED>WINS_AddrToString</DECORATED>
+    <FUNCLINE>428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>net_wins.c</FILENAME>
+      <LINE>446</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>WINS_StringToAddr</FUNCTION>
+    <DECORATED>WINS_StringToAddr</DECORATED>
+    <FUNCLINE>442</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>cl_parse.c</FILENAME>
+      <LINE>283</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '262164' bytes of stack.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>CL_ParseServerInfo</FUNCTION>
+    <DECORATED>CL_ParseServerInfo</DECORATED>
+    <FUNCLINE>283</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

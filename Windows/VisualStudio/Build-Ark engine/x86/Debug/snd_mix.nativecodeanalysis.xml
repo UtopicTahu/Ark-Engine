@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>snd_mix.c</FILENAME>
+      <LINE>250</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'input' could be '0':  this does not adhere to the specification for the function 'memcpy'. </DESCRIPTION>
+    <FUNCTION>S_ApplyFilter</FUNCTION>
+    <DECORATED>S_ApplyFilter</DECORATED>
+    <FUNCLINE>238</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'input' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'input' is an In/Out argument to 'memcpy' (declared at d:\microsoft visual studio\2022\vc\tools\msvc\14.38.33130\include\vcruntime_string.h:43)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'input' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>snd_mix.c</FILENAME>
+      <LINE>254</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'input'. See line 250 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>S_ApplyFilter</FUNCTION>
+    <DECORATED>S_ApplyFilter</DECORATED>
+    <FUNCLINE>238</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'input' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'input' is an In/Out argument to 'memcpy' (declared at d:\microsoft visual studio\2022\vc\tools\msvc\14.38.33130\include\vcruntime_string.h:43)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;count')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'input' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>snd_mix.c</FILENAME>
+      <LINE>270</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'input_plus_i'. See line 250 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>S_ApplyFilter</FUNCTION>
+    <DECORATED>S_ApplyFilter</DECORATED>
+    <FUNCLINE>238</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>261</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'input_plus_i' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;kernelsize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>snd_mix.c</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'input_plus_i' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>snd_mix.c</FILENAME>
+      <LINE>319</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>S_LowpassFilter</FUNCTION>
+    <DECORATED>S_LowpassFilter</DECORATED>
+    <FUNCLINE>298</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

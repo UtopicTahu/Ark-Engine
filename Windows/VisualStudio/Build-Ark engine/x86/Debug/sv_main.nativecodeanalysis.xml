@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_main.c</FILENAME>
+      <LINE>268</LINE>
+      <COLUMN>74</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SV_StartSound</FUNCTION>
+    <DECORATED>SV_StartSound</DECORATED>
+    <FUNCLINE>189</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_main.c</FILENAME>
+      <LINE>338</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(5) when some signed type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>SV_SendServerinfo</FUNCTION>
+    <DECORATED>SV_SendServerinfo</DECORATED>
+    <FUNCLINE>331</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_main.c</FILENAME>
+      <LINE>562</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'fatpvs', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>SV_FatPVS</FUNCTION>
+    <DECORATED>SV_FatPVS</DECORATED>
+    <FUNCLINE>556</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_main.c</FILENAME>
+      <LINE>848</LINE>
+      <COLUMN>67</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SV_WriteClientdataToMessage</FUNCTION>
+    <DECORATED>SV_WriteClientdataToMessage</DECORATED>
+    <FUNCLINE>830</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>sv_main.c</FILENAME>
+      <LINE>1011</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '64024' bytes of stack.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>SV_SendClientDatagram</FUNCTION>
+    <DECORATED>SV_SendClientDatagram</DECORATED>
+    <FUNCLINE>1011</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

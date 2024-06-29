@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>1157</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>'slash' could be '0', and is a copy of the value found in 'dot':  this does not adhere to the specification for the function 'memcpy'. See line 1139 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>COM_FileBase</FUNCTION>
+    <DECORATED>COM_FileBase</DECORATED>
+    <FUNCLINE>1132</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1134</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1134</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1134</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1136</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1137</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1138</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1139</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1141</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1143</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1144</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1145</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1139</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1147</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1148</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1150</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1154</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1155</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>1157</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>1988</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>COM_ParseIntNewline</FUNCTION>
+    <DECORATED>COM_ParseIntNewline</DECORATED>
+    <FUNCLINE>1985</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>1995</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>COM_ParseFloatNewline</FUNCTION>
+    <DECORATED>COM_ParseFloatNewline</DECORATED>
+    <FUNCLINE>1992</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>2003</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>COM_ParseStringNewline</FUNCTION>
+    <DECORATED>COM_ParseStringNewline</DECORATED>
+    <FUNCLINE>1999</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>2017</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '131112' bytes of stack.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>COM_LoadPackFile</FUNCTION>
+    <DECORATED>COM_LoadPackFile</DECORATED>
+    <FUNCLINE>2017</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>2658</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'localization.text', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>LOC_LoadFile</FUNCTION>
+    <DECORATED>LOC_LoadFile</DECORATED>
+    <FUNCLINE>2604</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>2788</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'localization.entries', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>LOC_LoadFile</FUNCTION>
+    <DECORATED>LOC_LoadFile</DECORATED>
+    <FUNCLINE>2604</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>2809</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'localization.indices', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>LOC_LoadFile</FUNCTION>
+    <DECORATED>LOC_LoadFile</DECORATED>
+    <FUNCLINE>2604</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>2810</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>'localization.indices' could be '0', and is a copy of the value found in 'realloc()`2809':  this does not adhere to the specification for the function 'memset'. </DESCRIPTION>
+    <FUNCTION>LOC_LoadFile</FUNCTION>
+    <DECORATED>LOC_LoadFile</DECORATED>
+    <FUNCLINE>2604</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2606</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2607</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2607</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2608</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2610</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2611</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2612</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2613</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2616</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2621</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2622</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2624</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2627</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2629</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2630</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2631</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2638</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2663</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2664</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2665</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2666</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2673</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2674</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2677</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2680</LINE>
+        <COLUMN>78</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2683</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2684</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2686</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2686</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2688</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2691</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2694</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2695</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2697</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2699</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2700</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2701</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2697</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2704</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2709</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2711</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2712</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2713</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2714</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2715</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2716</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2717</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2720</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2722</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2724</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2726</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2729</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2730</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2731</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2734</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2735</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2736</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2774</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2776</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2783</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2791</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2792</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2793</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2796</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2684</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2802</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2803</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2809</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\ark engine\quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2810</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>2791</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'localization.entries' contains the same NULL value as 'realloc()`2788' did. </DESCRIPTION>
+    <FUNCTION>LOC_LoadFile</FUNCTION>
+    <DECORATED>LOC_LoadFile</DECORATED>
+    <FUNCLINE>2604</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2606</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2607</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2607</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2608</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2610</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2611</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2612</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2613</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2616</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2621</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2622</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2624</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2627</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2629</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2630</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2631</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2638</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2663</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2664</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2665</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2666</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2673</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2674</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2677</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2680</LINE>
+        <COLUMN>78</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2683</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2684</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2686</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2686</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2688</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2691</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2694</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2695</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2697</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2699</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2700</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2701</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2697</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2704</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2709</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2711</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2712</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2713</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2714</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2715</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2716</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2717</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2720</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2722</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2724</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2726</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2729</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2730</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2731</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2734</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2735</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2736</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2774</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2776</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2783</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2786</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2787</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2788</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'localization.entries' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2791</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'localization.entries' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>common.c</FILENAME>
+      <LINE>2819</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'localization.indices' contains the same NULL value as 'realloc()`2809' did. See line 2810 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>LOC_LoadFile</FUNCTION>
+    <DECORATED>LOC_LoadFile</DECORATED>
+    <FUNCLINE>2604</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2606</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2607</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2607</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2608</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2610</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2611</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2612</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2613</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2616</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2621</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2622</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2624</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2627</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2629</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2630</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2631</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2638</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2663</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2664</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2665</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2666</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2673</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2674</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2677</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2680</LINE>
+        <COLUMN>78</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2683</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2684</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2686</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2686</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2688</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2691</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2694</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2695</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2697</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2699</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2700</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2701</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2697</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2704</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2709</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2711</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2712</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2713</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2714</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2715</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2716</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2717</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2720</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2722</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2724</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2726</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2729</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2730</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2731</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2734</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2735</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2736</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2774</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2776</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2783</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2791</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2792</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2793</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2796</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2684</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2802</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2803</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2809</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'localization.indices' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2810</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2812</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2812</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;localization.numentries')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2814</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2815</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2815</LINE>
+        <COLUMN>71</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2817</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+        <FILENAME>common.c</FILENAME>
+        <LINE>2819</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'localization.indices' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,107 @@
+﻿  bgmusic.cpp
+  cd_sdl.cpp
+  Warning: SDL CDAudio support disabled
+  cfgfile.cpp
+  chase.cpp
+  cl_demo.cpp
+  cl_input.cpp
+  cl_main.cpp
+  cl_parse.cpp
+  cl_tent.cpp
+  cmd.cpp
+  common.cpp
+  console.cpp
+  crc.cpp
+  cvar.cpp
+  gl_draw.cpp
+  gl_fog.cpp
+  gl_mesh.cpp
+  gl_model.cpp
+  gl_refrag.cpp
+  gl_rlight.cpp
+D:\Ark engine\Ark engine\common\gl_rlight.cpp(200,14): warning C4018: '<': signed/unsigned mismatch
+D:\Ark engine\Ark engine\common\gl_rlight.cpp(318,16): warning C4018: '<': signed/unsigned mismatch
+  Compiling...
+  gl_rmain.cpp
+  gl_rmisc.cpp
+  gl_screen.cpp
+  gl_sky.cpp
+  gl_texmgr.cpp
+  gl_vidsdl.cpp
+  gl_warp.cpp
+  host.cpp
+  host_cmd.cpp
+  image.cpp
+  in_sdl.cpp
+  keys.cpp
+  main_sdl.cpp
+  mathlib.cpp
+  menu.cpp
+  miniz.cpp
+D:\Ark engine\Ark engine\common\miniz.cpp(387,111): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  net_dgrm.cpp
+  net_loop.cpp
+  net_main.cpp
+  net_win.cpp
+  Compiling...
+  net_wins.cpp
+  net_wipx.cpp
+  pl_win.cpp
+  pr_cmds.cpp
+  pr_edict.cpp
+  pr_exec.cpp
+  r_alias.cpp
+  r_brush.cpp
+  r_part.cpp
+  r_sprite.cpp
+  r_world.cpp
+  sbar.cpp
+  snd_codec.cpp
+  snd_dma.cpp
+  snd_flac.cpp
+  snd_mem.cpp
+  snd_mikmod.cpp
+  snd_mix.cpp
+  snd_modplug.cpp
+  snd_mp3.cpp
+  Compiling...
+  snd_mp3tag.cpp
+  snd_opus.cpp
+  snd_sdl.cpp
+  snd_umx.cpp
+  snd_vorbis.cpp
+  snd_wave.cpp
+  snd_xmp.cpp
+  strlcat.cpp
+  strlcpy.cpp
+  sv_main.cpp
+  sv_move.cpp
+  sv_phys.cpp
+  sv_user.cpp
+  sys_sdl_win.cpp
+D:\Ark engine\Ark engine\common\sys_sdl_win.cpp(237,7): warning C4996: 'GetVersionExA': was declared deprecated
+  view.cpp
+  wad.cpp
+  world.cpp
+  zone.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1687 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  quakespasm-sdl2.vcxproj -> D:\Ark engine\Ark engine\Windows\VisualStudio\Build-Ark engine\x64\Release\Ark engine.exe
+          1 file(s) copied.
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libFLAC-8.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libmad-0.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libmikmod-3.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libmpg123-0.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libogg-0.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libopus-0.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libopusfile-0.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libvorbis-0.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libvorbisfile-3.dll
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\codecs\x64\libxmp.dll
+         10 file(s) copied.
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\SDL2\lib64\SDL2.dll
+          1 file(s) copied.
+  D:\Ark engine\Ark engine\Windows\VisualStudio\\..\lua\lua54.dll
+          1 file(s) copied.

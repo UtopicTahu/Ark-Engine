@@ -1,0 +1,94 @@
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\vc143.pdb
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\vc143.idb
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_modplug.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_mp3.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_mp3tag.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_opus.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_sdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_umx.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_vorbis.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_wave.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_xmp.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\strlcat.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\strlcpy.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\sv_main.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\sv_move.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\sv_phys.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\sv_user.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\sys_sdl_win.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\view.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\wad.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\world.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\zone.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\net_main.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\net_win.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\net_wins.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\net_wipx.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\pl_win.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\pr_cmds.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\pr_edict.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\pr_exec.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\r_alias.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\r_brush.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\r_part.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\r_sprite.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\r_world.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\sbar.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_codec.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_dma.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_flac.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_mem.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_mikmod.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\snd_mix.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_refrag.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_rlight.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_rmain.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_rmisc.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_screen.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_sky.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_texmgr.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_vidsdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_warp.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\host.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\host_cmd.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\image.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\in_sdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\keys.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\main_sdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\mathlib.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\menu.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\miniz.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\net_dgrm.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\net_loop.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\bgmusic.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cd_sdl.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cfgfile.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\chase.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cl_demo.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cl_input.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cl_main.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cl_parse.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cl_tent.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cmd.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\common.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\console.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\crc.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\cvar.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_draw.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_fog.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_mesh.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\gl_model.obj
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.ilk
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.exe
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.pdb
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\quakespasm.res
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\cl.command.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\cl.items.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\cl.read.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\cl.write.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\link.command.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\link.read.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\link.write.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\rc.command.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\rc.read.1.tlog
+d:\ark engine\windows\visualstudio\build-ark engine\x86\debug\ark engine.tlog\rc.write.1.tlog

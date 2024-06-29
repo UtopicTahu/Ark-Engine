@@ -1,0 +1,50 @@
+R_shadows 1
+r_shadows 1
+r_shadows 
+con_showfps 1
+con_showfps 1\
+con_showfps 1
+con_showfps
+scr_showfps
+scr_showfps 1
+r_shadows 1
+r_shadows 
+cl_showfps)
+cl_showfps
+cl_showfps 1
+cl_maxfps 
+ host_maxfps
+ host_maxfps 300
+ host_maxfps
+cl_showfps
+cl_showfps 1
+ host_maxfps 600
+ host_maxfps 72
+ host_maxfps 600
+ host_maxfps 72
+cl_showfps
+cl_showfps 1
+cl_showfps
+cl_showfps 1
+cl_showfps
+cl_showfps 1
+cl_showfps
+cl_showfps 1
+r_shadows 1
+r_shadows 0
+cl_showfps
+cl_showfps 1
+fps_max 100
+fps_max 200
+fps_max 1
+fps_max 60
+show_fps
+cl_SHOWFPS 1
+cl_showfps 1
+max_fps 1
+max_fps
+fps_max
+fps_90
+fps_max 90
+cl_showfps 1
+PAUSE

@@ -1,0 +1,6 @@
++MLOOK
+mat_fullbright
+fullbright 1
+r_fullbright
+r_fullbright 1
+r_fullbright 0

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>menu.c</FILENAME>
+      <LINE>1741</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(3) when some unsigned type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>M_Menu_LanConfig_f</FUNCTION>
+    <DECORATED>M_Menu_LanConfig_f</DECORATED>
+    <FUNCLINE>1725</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Ark engine\Quake\</FILEPATH>
+      <FILENAME>menu.c</FILENAME>
+      <LINE>1896</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(3) when some unsigned type is required in call to 'sprintf'.</DESCRIPTION>
+    <FUNCTION>M_LanConfig_Key</FUNCTION>
+    <DECORATED>M_LanConfig_Key</DECORATED>
+    <FUNCLINE>1809</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
